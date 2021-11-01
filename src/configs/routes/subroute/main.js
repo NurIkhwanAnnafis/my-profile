@@ -2,7 +2,7 @@ import { lazy } from "react";
 
 const menu = [
   {
-    path: '/',
+    path: '/welcome',
     exact: true,
     component: lazy(() => import('../../../containers/Welcome'))
   },
@@ -17,7 +17,7 @@ const menu = [
     component: lazy(() => import('../../../containers/Dummy'))
   },
   {
-    path: '/profile',
+    path: '/',
     exact: true,
     component: lazy(() => import('../../../pages/Profile'))
   }
